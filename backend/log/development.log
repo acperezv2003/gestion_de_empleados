@@ -1,0 +1,190 @@
+  [1m[35m (31.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY) /*application='Backend'*/[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2025-07-28 23:28:11.191490', '2025-07-28 23:28:11.191492') RETURNING "key" /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+Migrating to CreateEmpleados (20250728232738)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='Backend'*/[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "empleados" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar, "email" varchar, "area" varchar, "fecha_ingreso" date, "estado" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20250728232738') RETURNING "version" /*application='Backend'*/[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+Started GET "/api/empleados" for ::1 at 2025-07-28 18:46:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (1.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 269ms (Views: 2.5ms | ActiveRecord: 1.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2025-07-28 18:46:31 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for ::1 at 2025-07-28 18:46:32 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Users/Andres/.local/share/gem/ruby/3.4.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Users/Andres/.local/share/gem/ruby/3.4.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 95ms (Views: 1.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/icon.png" for ::1 at 2025-07-28 18:46:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/icon.png"):
+  
+Started GET "/icon.png" for ::1 at 2025-07-28 18:46:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/icon.png"):
+  
+Started GET "/api" for ::1 at 2025-07-28 18:46:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api"):
+  
+Started GET "/backend" for ::1 at 2025-07-28 18:46:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/backend"):
+  
+Started GET "/backend/empleadops" for ::1 at 2025-07-28 18:50:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/backend/empleadops"):
+  
+Started GET "/backend/empleados" for ::1 at 2025-07-28 18:50:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/backend/empleados"):
+  
+Started GET "/api/empleados" for ::1 at 2025-07-28 18:50:37 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-28 21:45:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (1.3ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 354ms (Views: 2.2ms | ActiveRecord: 2.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2025-07-28 21:45:26 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/empleados" for ::1 at 2025-07-28 21:45:45 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-28 21:45:46 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-28 21:45:46 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-28 21:45:46 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api" for ::1 at 2025-07-28 21:45:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api"):
+  
+Started GET "/api/empleados" for ::1 at 2025-07-28 21:45:57 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-28 23:15:32 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  
+SyntaxError (E:/prueba_tecnica/gestion_de_empleados/backend/config/routes.rb:6: syntax errors found
+  [2m4 | [m    resources :empleados
+  [2m5 | [m  end
+[1;31m> [m[2m6 | [mend
+  [2m  | [m   [1;31m^[m unexpected end-of-input, assuming it is closing the parent top level context
+[1;31m> [m[2m7 | [m
+  [2m  | [m[1;31m^[m expected a block beginning with `do` to end with `end`
+):
+  
+config/routes.rb:6: syntax errors found
+Started GET "/favicon.ico" for ::1 at 2025-07-28 23:15:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/empleados" for ::1 at 2025-07-28 23:17:55 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (1.4ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 34ms (Views: 2.2ms | ActiveRecord: 2.4ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/empleados" for 127.0.0.1 at 2025-07-28 23:39:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (1.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 51ms (Views: 5.4ms | ActiveRecord: 1.8ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/empleados" for 127.0.0.1 at 2025-07-28 23:39:37 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for 127.0.0.1 at 2025-07-28 23:39:41 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for 127.0.0.1 at 2025-07-28 23:39:43 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for 127.0.0.1 at 2025-07-28 23:39:43 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for 127.0.0.1 at 2025-07-28 23:39:43 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for 127.0.0.1 at 2025-07-28 23:39:44 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mEmpleado Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "empleados" /*application='Backend'*/[0m
+  [1m[36mEmpleado Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "empleados" /*application='Backend'*/[0m
+  [1m[36mEmpleado Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "empleados" /*application='Backend'*/[0m
+  [1m[36mEmpleado Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "empleados" /*application='Backend'*/[0m
