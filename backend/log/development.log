@@ -204,3 +204,1240 @@ Started GET "/favicon.ico" for ::1 at 2025-07-29 12:49:24 -0500
   
 ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
   
+Started GET "/api/empleados" for ::1 at 2025-07-29 12:57:56 -0500
+Processing by Api::EmpleadosController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+NoMethodError (undefined method 'm' for class Empleado):
+  
+app/models/empleado.rb:2:in '<class:Empleado>'
+app/models/empleado.rb:1:in '<main>'
+app/controllers/api/empleados_controller.rb:6:in 'Api::EmpleadosController#index'
+Started GET "/favicon.ico" for ::1 at 2025-07-29 12:57:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/empleados" for ::1 at 2025-07-29 12:59:52 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (2.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 294ms (Views: 3.7ms | ActiveRecord: 3.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:02:12 -0500
+Processing by Api::EmpleadosController#index as */*
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:08:36 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (2.0ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 11ms (Views: 2.7ms | ActiveRecord: 2.0ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2025-07-29 13:08:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:08:38 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:08:38 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:08:39 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:08:39 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:08:39 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:08:39 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:08:40 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[35m (54.9ms)[0m  [1m[35mDROP TABLE IF EXISTS "empleados" /*application='Backend'*/[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "empleados" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar, "email" varchar, "area" varchar, "fecha_ingreso" date, "estado" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'schema_sha1' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('schema_sha1', 'fb2f38e208db0d5126c07c91917d195426cf1366', '2025-07-29 18:10:03.513221', '2025-07-29 18:10:03.513224') RETURNING "key" /*application='Backend'*/[0m
+  [1m[35m (83.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "empleados" /*application='Backend'*/[0m
+  [1m[35m (25.5ms)[0m  [1m[35mCREATE TABLE "empleados" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar, "email" varchar, "area" varchar, "fecha_ingreso" date, "estado" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='Backend'*/[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY) /*application='Backend'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20250728232738) /*application='Backend'*/[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL) /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2025-07-29 18:10:03.644097', '2025-07-29 18:10:03.644099') RETURNING "key" /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'environment' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.1ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = 'test', "updated_at" = '2025-07-29 18:10:03.650486' WHERE "ar_internal_metadata"."key" = 'environment' /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = 'schema_sha1' ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1 /*application='Backend'*/[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('schema_sha1', 'fb2f38e208db0d5126c07c91917d195426cf1366', '2025-07-29 18:10:03.656366', '2025-07-29 18:10:03.656369') RETURNING "key" /*application='Backend'*/[0m
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:12:06 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.8ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 9ms (Views: 3.3ms | ActiveRecord: 0.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mEmpleado Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "empleados" /*application='Backend'*/[0m
+  [1m[36mEmpleado Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "empleados" /*application='Backend'*/[0m
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /* loading for pp */ LIMIT 11 /*application='Backend'*/[0m
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /* loading for pp */ LIMIT 11 /*application='Backend'*/[0m
+Started POST "/api/empleados" for ::1 at 2025-07-29 13:16:53 -0500
+Processing by Api::EmpleadosController#create as */*
+  Parameters: {"nombre" => "sofia", "empleado" => {"nombre" => "sofia"}}
+Completed 422 Unprocessable Content in 23ms (Views: 0.1ms | ActiveRecord: 0.5ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started POST "/api/empleados" for ::1 at 2025-07-29 13:19:08 -0500
+Processing by Api::EmpleadosController#create as */*
+  Parameters: {"nombre" => "sofia", "email" => "[FILTERED]", "fecha_de_ingreso" => "1999-08-13", "estado" => "activo", "area" => "IT", "empleado" => {"nombre" => "sofia", "email" => "[FILTERED]", "area" => "IT", "estado" => "activo"}}
+Completed 422 Unprocessable Content in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/empleados" for ::1 at 2025-07-29 13:19:27 -0500
+Processing by Api::EmpleadosController#create as */*
+  Parameters: {"nombre" => "sofia", "email" => "[FILTERED]", "fecha_ingreso" => "1999-08-13", "estado" => "activo", "area" => "IT", "empleado" => {"nombre" => "sofia", "email" => "[FILTERED]", "area" => "IT", "fecha_ingreso" => "1999-08-13", "estado" => "activo"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='create',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:18:in 'Api::EmpleadosController#create'
+  [1m[36mEmpleado Create (2.4ms)[0m  [1m[32mINSERT INTO "empleados" ("nombre", "email", "area", "fecha_ingreso", "estado", "created_at", "updated_at") VALUES ('sofia', 'sofia@prueba.com', 'IT', '1999-08-13', 'activo', '2025-07-29 18:19:27.723641', '2025-07-29 18:19:27.723641') RETURNING "id" /*action='create',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:18:in 'Api::EmpleadosController#create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='create',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:18:in 'Api::EmpleadosController#create'
+Completed 201 Created in 9ms (Views: 0.4ms | ActiveRecord: 2.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:19:35 -0500
+Processing by Api::EmpleadosController#index as */*
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:20:09 -0500
+Processing by Api::EmpleadosController#index as */*
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/api/empleados" for ::1 at 2025-07-29 13:20:36 -0500
+Processing by Api::EmpleadosController#create as */*
+  Parameters: {"nombre" => "henry", "email" => "[FILTERED]", "fecha_ingreso" => "1999-08-13", "estado" => "activo", "area" => "IT", "empleado" => {"nombre" => "henry", "email" => "[FILTERED]", "area" => "IT", "fecha_ingreso" => "1999-08-13", "estado" => "activo"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*action='create',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:18:in 'Api::EmpleadosController#create'
+  [1m[36mEmpleado Create (2.3ms)[0m  [1m[32mINSERT INTO "empleados" ("nombre", "email", "area", "fecha_ingreso", "estado", "created_at", "updated_at") VALUES ('henry', 'henry@prueba.com', 'IT', '1999-08-13', 'activo', '2025-07-29 18:20:36.569770', '2025-07-29 18:20:36.569770') RETURNING "id" /*action='create',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:18:in 'Api::EmpleadosController#create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT TRANSACTION /*action='create',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:18:in 'Api::EmpleadosController#create'
+Completed 201 Created in 7ms (Views: 0.4ms | ActiveRecord: 2.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:20:41 -0500
+Processing by Api::EmpleadosController#index as */*
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados/2" for ::1 at 2025-07-29 13:22:08 -0500
+Processing by Api::EmpleadosController#show as */*
+  Parameters: {"id" => "2"}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = 2 LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 200 OK in 109ms (Views: 0.6ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mEmpleado Load (7.7ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /* loading for pp */ LIMIT 11 /*application='Backend'*/[0m
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:22:54 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2025-07-29 13:22:54 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/empleados?nombre=&area=" for ::1 at 2025-07-29 13:26:06 -0500
+Started GET "/api/empleados?nombre=&area=" for ::1 at 2025-07-29 13:26:07 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "", "area" => ""}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "", "area" => ""}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados?nombre=h&area=" for ::1 at 2025-07-29 13:26:33 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "h", "area" => ""}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%h%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados?nombre=he&area=" for ::1 at 2025-07-29 13:26:33 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "he", "area" => ""}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%he%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados?nombre=hen&area=" for ::1 at 2025-07-29 13:26:33 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "hen", "area" => ""}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%hen%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados?nombre=henr&area=" for ::1 at 2025-07-29 13:26:33 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "henr", "area" => ""}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%henr%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados?nombre=henry&area=" for ::1 at 2025-07-29 13:26:33 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "henry", "area" => ""}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%henry%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados?nombre=henry&area=i" for ::1 at 2025-07-29 13:30:58 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "henry", "area" => "i"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%henry%') AND "empleados"."area" = 'i' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados?nombre=henry&area=it" for ::1 at 2025-07-29 13:30:58 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "henry", "area" => "it"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%henry%') AND "empleados"."area" = 'it' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados?nombre=&area=" for ::1 at 2025-07-29 13:31:15 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "", "area" => ""}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/empleados?nombre=&area=" for ::1 at 2025-07-29 13:31:24 -0500
+Processing by Api::EmpleadosController#index as HTML
+  Parameters: {"nombre" => "", "area" => ""}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE (nombre LIKE '%%') AND "empleados"."area" = '' /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empelados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:31:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api/empelados/empleados"):
+  
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:31:30 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:31:31 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:31:31 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:31:31 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 5ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:31:32 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:32:03 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2025-07-29 13:32:03 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:32:04 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:32:04 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:32:05 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:32:05 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:32:05 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:32:06 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:32:06 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:32:06 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:32:06 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:11 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (1.8ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 4ms (ActiveRecord: 1.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:12 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:12 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:13 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:13 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:13 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:13 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:13 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=h&area=" for ::1 at 2025-07-29 13:50:15 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "h", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.5ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=he&area=" for ::1 at 2025-07-29 13:50:15 -0500
+Started GET "/api/empleados/empleados?nombre=hen&area=" for ::1 at 2025-07-29 13:50:15 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "he", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "hen", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=henr&area=" for ::1 at 2025-07-29 13:50:16 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "henr", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=henry&area=" for ::1 at 2025-07-29 13:50:16 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "henry", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=henr&area=" for ::1 at 2025-07-29 13:50:16 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "henr", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=hen&area=" for ::1 at 2025-07-29 13:50:17 -0500
+Started GET "/api/empleados/empleados?nombre=he&area=" for ::1 at 2025-07-29 13:50:17 -0500
+Started GET "/api/empleados/empleados?nombre=h&area=" for ::1 at 2025-07-29 13:50:17 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "hen", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "he", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "h", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:17 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:47 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:47 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:48 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:48 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:50:48 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.3ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:51:28 -0500
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:51:28 -0500
+Started GET "/api/empleados" for 127.0.0.1 at 2025-07-29 13:51:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/empleados"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/api/empleados"):
+  
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (1.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 468ms (Views: 23.3ms | ActiveRecord: 2.1ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:51:30 -0500
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:51:30 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:51:32 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 22ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:51:32 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.5ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:51:32 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:51:32 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:51:33 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:54:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (1.7ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 63ms (Views: 16.4ms | ActiveRecord: 2.8ms (1 query, 0 cached) | GC: 990.2ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:54:46 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:55:12 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 102ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:58:44 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:58:44 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:58:44 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.6ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:58:44 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:58:45 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:58:45 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:58:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Backend'*/[0m
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 45ms (ActiveRecord: 2.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:00 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:01 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:01 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:01 -0500
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:01 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:01 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:01 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:01 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 13:59:01 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:02 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:02 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:02 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:02 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:03 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:03 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:03 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:03 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:03 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 13:59:04 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (1.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 4ms (ActiveRecord: 1.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 14:06:05 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (1.3ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 1.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 14:06:50 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 14:06:56 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 14:07:08 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 14:07:09 -0500
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 14:07:09 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 14:07:09 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.2ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados/empleados?nombre=&area=" for ::1 at 2025-07-29 14:07:09 -0500
+Processing by Api::EmpleadosController#show as HTML
+  Parameters: {"nombre" => "", "area" => "", "id" => "empleados"}
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" WHERE "empleados"."id" = NULL LIMIT 1 /*action='show',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Empleado with 'id'=empleados):
+  
+app/controllers/api/empleados_controller.rb:41:in 'Api::EmpleadosController#set_empleado'
+Started GET "/api/empleados" for ::1 at 2025-07-29 14:07:10 -0500
+Started GET "/api/empleados" for ::1 at 2025-07-29 14:07:10 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/empleados" for ::1 at 2025-07-29 14:07:10 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.2ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2025-07-29 14:07:10 -0500
+Started GET "/api/empleados" for ::1 at 2025-07-29 14:07:10 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/empleados" for ::1 at 2025-07-29 14:07:11 -0500
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Processing by Api::EmpleadosController#index as HTML
+  [1m[36mEmpleado Load (0.1ms)[0m  [1m[34mSELECT "empleados".* FROM "empleados" /*action='index',application='Backend',controller='empleados'*/[0m
+  ↳ app/controllers/api/empleados_controller.rb:9:in 'Api::EmpleadosController#index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2025-07-29 14:07:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  

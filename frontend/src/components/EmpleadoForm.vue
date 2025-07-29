@@ -1,4 +1,3 @@
-<!-- src/components/EmpleadoForm.vue -->
 <template>
   <div class="bg-white shadow rounded-xl p-6 mb-6">
     <h2 class="text-xl font-semibold mb-4">Crear Empleado</h2>
@@ -35,7 +34,7 @@ const form = ref({
 
 const crearEmpleado = async () => {
   try {
-    await api.post('/empleados', { empleado: form.value })
+    await api.post('', { empleado: form.value })
     emit('empleadoCreado')
     form.value = { nombre: '', email: '', area: '', fecha_ingreso: '', estado: '' }
   } catch (error) {
