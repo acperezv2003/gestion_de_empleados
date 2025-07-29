@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Empleado, type: :model do
-  it 'es válido con atributos válidos' do
+  it 'es valido con atributos validos' do
     empleado = Empleado.new(
       nombre: 'Juan',
       email: 'juan@mail.com',
@@ -12,7 +12,7 @@ RSpec.describe Empleado, type: :model do
     expect(empleado).to be_valid
   end
 
-  it 'es inválido sin nombre' do
+  it 'es invalido sin nombre' do
     empleado = Empleado.new(nombre: nil)
     empleado.validate
     expect(empleado.errors[:nombre]).to include("can't be blank")
